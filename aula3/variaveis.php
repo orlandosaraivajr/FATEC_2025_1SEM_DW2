@@ -4,6 +4,7 @@ Variáveis
 */
 
 $texto_de_exemplo = 'texto';
+print $texto_de_exemplo . '<br>';
 echo gettype($texto_de_exemplo) . '<br>' .PHP_EOL;
 
 $texto = 123;
