@@ -36,7 +36,7 @@ Os campos que devem estar cadastrados são:
  - ISBN
 
 
-### 1- DashBoard - Área de login/logout (30% da nota)
+### 1- DashBoard - Área de login/logout (40% da nota)
 - Com uso de sessões (sessions), criar uma área de login. Permitir encessar sessão (logout). Para realizar login/logout, necessário ter um único login e senha como professor. Estas senhas serão compartilhadas entre os professores.
 
 - Login: <b>professor</b>
