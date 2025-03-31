@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+actor "Bibliotecário" as user1
+actor "Professores" as user2
+actor "Usuário não logado" as user3
+
+package Cadastro {
+  usecase "Cadastrar Livros" as UC1
+  usecase "Listar pedidos de livros" as UC2
+  usecase "Listar todos os Livros" as UC3
+  usecase "Cadastrar pedidos de Livros" as UC4
+}
+user1 --> UC1
+user1 --> UC2
+user1 --> UC3
+user2 --> UC3
+user2 --> UC4
+
+@enduml
