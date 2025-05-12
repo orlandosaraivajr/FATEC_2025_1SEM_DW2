@@ -1,0 +1,21 @@
+@startuml
+
+left to right direction
+actor "Lojista" as user
+actor "Usuário não logado" as anonimo
+
+package "Cadastro de Produtos" {
+  usecase "Cadastrar Produto" as UC1
+  usecase "Listar Produtos" as UC2
+  usecase "Remover Produto" as UC3
+  usecase "Login" as UC4
+  usecase "Logout" as UC5
+  
+}
+user --> UC4
+user --> UC5
+user --> UC1
+user --> UC2
+user --> UC3
+
+@enduml
